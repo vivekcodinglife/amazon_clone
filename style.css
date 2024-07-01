@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
     border: border-box;
+    
 }
 .navbar{
     height: 60px;
@@ -11,6 +12,8 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
+
 }
 .nav-logo{
     height: 50px;
@@ -23,27 +26,33 @@
     background-position: center;
     height: 50px;
     width: 100px;
+    cursor: pointer;
 }  
 .border{
     border: 2px solid transparent;
+    cursor: pointer;
 
 }
 .border:hover{
     border: 2px solid white;
+
 }
 /*box2*/
 .add-first{
     color: #cccccc;
     font-size: 0.85rem;
     margin-left: 15px;
+
 }
 .add-sec{
     font-size: 1rem;
     margin-left: 3px;
+
 }
 .add-icon{
     display: flex;
     align-items: center;
+
 }
 /*box3*/
 .nav-search{
@@ -143,6 +152,10 @@ span{
 .hero-msg a{
     color: #007185;
 }
+.hero-msg a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
 .hero-section2{
     background-image: url("hero2.jpg");
     height: 300px;
@@ -172,6 +185,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 
 }
 /*-----shop-section-----*/
@@ -198,6 +212,7 @@ span{
     background-size: cover;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    cursor: pointer;
 }
 .box-content{
     margin-left: 1rem;
@@ -206,6 +221,10 @@ span{
 .box-content p{
     color: #007185;
     text-align: center;
+    cursor: pointer;
+}
+.box-content p:hover{
+    color: red;
 }
 /*-------FOOTER-----*/
 footer{
@@ -219,6 +238,10 @@ footer{
     justify-content: center;
     align-items: center;
     font-size: 0.85rem;
+
+}
+.foot-text{
+    cursor: pointer;
 }
 .foot-panel2{
     background-color: #222f3d;
@@ -229,12 +252,19 @@ footer{
 }
 ul{
     margin-top: 20px;
+    cursor: pointer;
+
 }
+
 ul a{
     display: block;
     font-size: 0.85rem;
     margin-top: 10px;
     color: #dddddd;
+    
+}
+ul a:hover{
+    text-decoration: underline;
 }
 .foot-panel3{
     background-color: #222f3d;
